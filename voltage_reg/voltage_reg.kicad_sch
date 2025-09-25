@@ -1346,6 +1346,12 @@
 		)
 	)
 	(junction
+		(at 135.89 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01c2b21d-9035-470e-a1fc-e77c1067e21d")
+	)
+	(junction
 		(at 124.46 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1386,6 +1392,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b329d4d3-04c8-48fc-97bd-112a37c67c72")
+	)
+	(junction
+		(at 135.89 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c932da3e-742f-4b48-8a95-613357869024")
 	)
 	(junction
 		(at 80.01 59.69)
@@ -1469,7 +1481,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 59.69) (xy 124.46 59.69)
+			(xy 143.51 59.69) (xy 135.89 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1599,6 +1611,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 59.69) (xy 124.46 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71c57be9-133a-49a7-96cd-87c1d8b5c0f3")
+	)
+	(wire
+		(pts
 			(xy 143.51 68.58) (xy 143.51 77.47)
 		)
 		(stroke
@@ -1639,7 +1661,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 77.47) (xy 124.46 77.47)
+			(xy 143.51 77.47) (xy 135.89 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1669,6 +1691,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 71.12) (xy 135.89 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9ffbaaf-800a-464c-905c-114b59848dc8")
+	)
+	(wire
+		(pts
 			(xy 124.46 77.47) (xy 107.95 77.47)
 		)
 		(stroke
@@ -1686,6 +1718,26 @@
 			(type default)
 		)
 		(uuid "c3a744da-dc31-4ad2-9348-a2f763dfcc72")
+	)
+	(wire
+		(pts
+			(xy 135.89 59.69) (xy 135.89 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf0f612b-8059-4fc3-a29b-e3840077349d")
+	)
+	(wire
+		(pts
+			(xy 135.89 77.47) (xy 124.46 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1a87714-3734-437d-a408-637a502a3b4d")
 	)
 	(wire
 		(pts
@@ -1861,6 +1913,85 @@
 			(project ""
 				(path "/14871852-16ee-44e7-a0af-8a8c35c49ac5"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 135.89 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26a380f1-e967-4cec-8e70-4ab2e65cc30b")
+		(property "Reference" "C5"
+			(at 138.43 66.7638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 138.43 69.3038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+			(at 135.89 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 135.89 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part number" ""
+			(at 135.89 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60a0e1cd-5854-4cea-bbf3-cfc8c705e103")
+		)
+		(pin "2"
+			(uuid "11f8819f-7783-417d-963d-51bfb7764fe6")
+		)
+		(instances
+			(project "voltage_reg"
+				(path "/14871852-16ee-44e7-a0af-8a8c35c49ac5"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -2406,7 +2537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal"
+		(property "Footprint" "Connector_USB:USB_Micro-B_Molex_47346-0001"
 			(at 54.61 66.04 0)
 			(effects
 				(font
