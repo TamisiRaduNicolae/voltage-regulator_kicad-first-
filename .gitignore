@@ -1,0 +1,23 @@
+# KiCad project files to ignore
+*.bak
+*.bck
+*.tmp
+*.sch-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+*.net
+*.xml
+fp-info-cache
+sym-lib-table-bak
+fp-lib-table-bak
+
+# Intermediate / generated files
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
