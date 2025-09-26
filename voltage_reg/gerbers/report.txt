@@ -1,0 +1,15 @@
+Warning: Width correction constrained.  The width correction value must be in the range of [0.000001 mm; 0.199999 mm] for the current design rules.
+Plotted to 'C:\Users\tamis\my_projects_Tamisi_Radu\kicad_projects\simple_prj\voltage-regulator_kicad-first-\voltage_reg\gerbers\voltage_reg-F_Cu.gbr'.
+Plotted to 'C:\Users\tamis\my_projects_Tamisi_Radu\kicad_projects\simple_prj\voltage-regulator_kicad-first-\voltage_reg\gerbers\voltage_reg-B_Cu.gbr'.
+Plotted to 'C:\Users\tamis\my_projects_Tamisi_Radu\kicad_projects\simple_prj\voltage-regulator_kicad-first-\voltage_reg\gerbers\voltage_reg-F_Adhesive.gbr'.
+Plotted to 'C:\Users\tamis\my_projects_Tamisi_Radu\kicad_projects\simple_prj\voltage-regulator_kicad-first-\voltage_reg\gerbers\voltage_reg-B_Adhesive.gbr'.
+Plotted to 'C:\Users\tamis\my_projects_Tamisi_Radu\kicad_projects\simple_prj\voltage-regulator_kicad-first-\voltage_reg\gerbers\voltage_reg-F_Paste.gbr'.
+Plotted to 'C:\Users\tamis\my_projects_Tamisi_Radu\kicad_projects\simple_prj\voltage-regulator_kicad-first-\voltage_reg\gerbers\voltage_reg-B_Paste.gbr'.
+Plotted to 'C:\Users\tamis\my_projects_Tamisi_Radu\kicad_projects\simple_prj\voltage-regulator_kicad-first-\voltage_reg\gerbers\voltage_reg-F_Silkscreen.gbr'.
+Plotted to 'C:\Users\tamis\my_projects_Tamisi_Radu\kicad_projects\simple_prj\voltage-regulator_kicad-first-\voltage_reg\gerbers\voltage_reg-B_Silkscreen.gbr'.
+Plotted to 'C:\Users\tamis\my_projects_Tamisi_Radu\kicad_projects\simple_prj\voltage-regulator_kicad-first-\voltage_reg\gerbers\voltage_reg-F_Mask.gbr'.
+Plotted to 'C:\Users\tamis\my_projects_Tamisi_Radu\kicad_projects\simple_prj\voltage-regulator_kicad-first-\voltage_reg\gerbers\voltage_reg-B_Mask.gbr'.
+Plotted to 'C:\Users\tamis\my_projects_Tamisi_Radu\kicad_projects\simple_prj\voltage-regulator_kicad-first-\voltage_reg\gerbers\voltage_reg-Edge_Cuts.gbr'.
+Created Gerber job file 'C:\Users\tamis\my_projects_Tamisi_Radu\kicad_projects\simple_prj\voltage-regulator_kicad-first-\voltage_reg\gerbers\voltage_reg-job.gbrjob'.
+Info: Done.
+Info: Done.
